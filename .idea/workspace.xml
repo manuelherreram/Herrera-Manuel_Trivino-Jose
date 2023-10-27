@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049b6bc3-4d89-4c45-a51a-970317178e7b" name="Changes" comment="adds j4log and H2">
-      <change afterPath="$PROJECT_DIR$/Database/my.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/H2Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/DomicilioDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/PacienteDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/model/Domicilio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/test/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +26,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XHRpjvpt6CMIWbbsoKW3bXW93m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Program Files (x86)/H2/bin/h2-2.2.224.jar",
@@ -51,6 +66,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\test" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\service" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\model" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\dao\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +88,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698284208684</updated>
-      <workItem from="1698284209680" duration="2344000" />
+      <workItem from="1698284209680" duration="2665000" />
+      <workItem from="1698324621468" duration="86000" />
+      <workItem from="1698326257932" duration="11000" />
+      <workItem from="1698357349200" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="adds j4log and H2">
       <option name="closed" value="true" />
@@ -69,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698286334829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adds j4log and H2">
+      <option name="closed" value="true" />
+      <created>1698286696374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698286696374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
