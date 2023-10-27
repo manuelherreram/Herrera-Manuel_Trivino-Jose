@@ -9,4 +9,6 @@ public interface IDao<T> {
     List<T> listarTodos();
 
     T buscarPorId(int id);
+
+
 }

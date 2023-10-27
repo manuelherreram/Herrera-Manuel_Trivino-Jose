@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="049b6bc3-4d89-4c45-a51a-970317178e7b" name="Changes" comment="adds j4log and H2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/H2Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/DomicilioDaoH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/PacienteDaoH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/model/Domicilio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/model/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/service/PacienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backend/test/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/OdontologoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/dao/impl/OdontologoDaoMemoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/model/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/service/OdontologoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/backend/test/OdontologoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herrera-Manuel_Trivino-Jose.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Herrera-Manuel_Trivino-Jose.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/backend/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/dao/impl/DomicilioDaoH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/dao/impl/PacienteDaoH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/model/Domicilio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/model/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/service/PacienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backend/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/backend/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,12 +54,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Program Files (x86)/H2/bin/h2-2.2.224.jar",
+    "last_opened_file_path": "C:/Users/manue/Documents/BackEndDH/Herrera-Manuel_Trivino-Jose/Herrera-Manuel_Trivino-Jose/src/com/backend/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,8 +80,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\test" />
+      <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\service" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\model" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend\dao\impl" />
@@ -78,6 +90,12 @@
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose" />
       <recent name="C:\Users\manue\Documents\BackEndDH\Herrera-Manuel_Trivino-Jose\Herrera-Manuel_Trivino-Jose\src\com\backend" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.backend.test" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +109,7 @@
       <workItem from="1698284209680" duration="2665000" />
       <workItem from="1698324621468" duration="86000" />
       <workItem from="1698326257932" duration="11000" />
-      <workItem from="1698357349200" duration="4070000" />
+      <workItem from="1698357349200" duration="8061000" />
     </task>
     <task id="LOCAL-00001" summary="adds j4log and H2">
       <option name="closed" value="true" />
